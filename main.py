@@ -405,6 +405,8 @@ class Hero(pygame.sprite.Sprite):  # класс героя
     def move(self, x, y):  # передвижение
         i = x + self.pos_x
         j = y + self.pos_y
+        if len(self.map_level) <= i or len(self.map_level[0]) <= j:
+            return
         if self.map_level[i][j] not in '~#':
             if x != 0:
                 self.direction = x
