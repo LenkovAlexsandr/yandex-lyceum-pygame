@@ -57,7 +57,7 @@
  [],
  False,
  False,
- 1704468253,
+ 1705237513,
  [('runw.exe',
    'C:\\Users\\lenko\\pygame '
    'Project\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
